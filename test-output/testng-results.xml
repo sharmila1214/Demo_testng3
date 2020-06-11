@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-10T15:55:35 PDT" name="Regression_Suite" finished-at="2020-06-10T15:55:35 PDT" duration-ms="103">
+  <suite name="Regression_Suite" duration-ms="81" started-at="2020-06-10T23:39:13 PDT" finished-at="2020-06-10T23:39:13 PDT">
     <groups>
-      <group name="Sanity">
-        <method signature="TC_Home_group.TC_Home_02()[pri:0, instance:Testng_demo.Testng_demo.TC_Home_group@2145b572]" name="TC_Home_02" class="Testng_demo.Testng_demo.TC_Home_group"/>
-      </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="TC_Login_group.TC_login_01()[pri:0, instance:Testng_demo.Testng_demo.TC_Login_group@402bba4f]" name="TC_login_01" class="Testng_demo.Testng_demo.TC_Login_group"/>
-      </group> <!-- Regression -->
     </groups>
-    <test started-at="2020-06-10T15:55:35 PDT" name="HOME_Test" finished-at="2020-06-10T15:55:35 PDT" duration-ms="56">
-      <class name="Testng_demo.Testng_demo.TC_Home_group">
-        <test-method signature="TC_Home_02()[pri:0, instance:Testng_demo.Testng_demo.TC_Home_group@2145b572]" started-at="2020-06-10T15:55:35 PDT" name="TC_Home_02" finished-at="2020-06-10T15:55:35 PDT" duration-ms="7" status="PASS">
+    <test name="HOME_Test" duration-ms="43" started-at="2020-06-10T23:39:13 PDT" finished-at="2020-06-10T23:39:13 PDT">
+      <class name="Testng_demo.Testng_demo.TC_Home">
+        <test-method status="PASS" signature="TC_Home_01()[pri:0, instance:Testng_demo.Testng_demo.TC_Home@64f6106c]" name="TC_Home_01" duration-ms="9" started-at="2020-06-10T23:39:13 PDT" finished-at="2020-06-10T23:39:13 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Home_01 -->
+        <test-method status="PASS" signature="TC_Home_02()[pri:0, instance:Testng_demo.Testng_demo.TC_Home@64f6106c]" name="TC_Home_02" duration-ms="1" started-at="2020-06-10T23:39:13 PDT" finished-at="2020-06-10T23:39:13 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_Home_02 -->
-      </class> <!-- Testng_demo.Testng_demo.TC_Home_group -->
+      </class> <!-- Testng_demo.Testng_demo.TC_Home -->
     </test> <!-- HOME_Test -->
-    <test started-at="2020-06-10T15:55:35 PDT" name="Login_Test" finished-at="2020-06-10T15:55:35 PDT" duration-ms="3">
-      <class name="Testng_demo.Testng_demo.TC_Login_group">
-        <test-method signature="TC_login_01()[pri:0, instance:Testng_demo.Testng_demo.TC_Login_group@402bba4f]" started-at="2020-06-10T15:55:35 PDT" name="TC_login_01" finished-at="2020-06-10T15:55:35 PDT" duration-ms="1" status="PASS">
+    <test name="Login_Test" duration-ms="6" started-at="2020-06-10T23:39:13 PDT" finished-at="2020-06-10T23:39:13 PDT">
+      <class name="Testng_demo.Testng_demo.TC_Login">
+        <test-method status="PASS" signature="TC_Login_01()[pri:0, instance:Testng_demo.Testng_demo.TC_Login@401e7803]" name="TC_Login_01" duration-ms="1" started-at="2020-06-10T23:39:13 PDT" finished-at="2020-06-10T23:39:13 PDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_login_01 -->
-      </class> <!-- Testng_demo.Testng_demo.TC_Login_group -->
+        </test-method> <!-- TC_Login_01 -->
+        <test-method status="PASS" signature="TC_Login_02()[pri:0, instance:Testng_demo.Testng_demo.TC_Login@401e7803]" name="TC_Login_02" duration-ms="1" started-at="2020-06-10T23:39:13 PDT" finished-at="2020-06-10T23:39:13 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Login_02 -->
+        <test-method status="PASS" signature="TC_Login_04()[pri:0, instance:Testng_demo.Testng_demo.TC_Login@401e7803]" name="TC_Login_04" duration-ms="0" started-at="2020-06-10T23:39:13 PDT" finished-at="2020-06-10T23:39:13 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Login_04 -->
+      </class> <!-- Testng_demo.Testng_demo.TC_Login -->
     </test> <!-- Login_Test -->
   </suite> <!-- Regression_Suite -->
 </testng-results>
